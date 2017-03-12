@@ -1,0 +1,2 @@
+newhope uses chacha20 and keccak(+)
+sphincs uses chacha12(+) and blake512/256
