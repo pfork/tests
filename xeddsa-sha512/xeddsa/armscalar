@@ -1,0 +1,2 @@
+fe25519_mpyWith121666_asm - fe.h:#define fe_mul121666 crypto_core_curve25519_ref10_fe_mul121666
+fe25519_reduceTo256Bits_asm - sc.h:#define sc_reduce crypto_core_curve25519_ref10_sc_reduce
