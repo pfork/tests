@@ -1,0 +1,8 @@
+play on host using
+gcc -c -o decode.o ../../utils/lzg/decode.c
+gcc -c -o checksum.o ../../utils/lzg/checksum.c
+gcc -I../../ -o q decode.o checksum.o hosttest.c && ./q | less
+
+if you wanna regenare the lzgs:
+../../lib/liblzg/src/tools/lzg -9 functions.bin functions.bin.lzg
+../../lib/liblzg/src/tools/lzg -9 modules.bin modules.bin.lzg
